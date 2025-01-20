@@ -1,11 +1,10 @@
-import React from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import Workspaces from './components/Workspaces'
+import Layout from './Layout'
 
 function App() {
   return (
     <Router>
-      <Workspaces />
+      <Layout />
     </Router>
   )
 }
