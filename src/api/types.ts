@@ -9,7 +9,7 @@ export interface Shipment {
 }
 
 /** A simple shipment table containing any number of shipments for a specified build */
-export interface ShipmentTable {
+export interface BuildShipment {
   id: string
   buildNumber: string // Treat this like the name of the shipment table
   shipments: Shipment[]
@@ -20,5 +20,5 @@ export interface Workspace {
   id: string
   title: string
   /** Table to track each shipping status for individual build */
-  buildShipments: ShipmentTable[]
+  buildShipments: BuildShipment[]
 }
