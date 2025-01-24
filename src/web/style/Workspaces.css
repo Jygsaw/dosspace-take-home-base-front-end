@@ -20,3 +20,8 @@ body {
 .Workspaces__content {
   padding: 16px 24px;
 }
+
+.Card {
+  max-width: 400px;
+  padding: 1rem;
+}
