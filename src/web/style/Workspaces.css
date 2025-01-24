@@ -5,7 +5,7 @@ body {
   line-height: 1.5;
 }
 
-.Workspaces {
+.Workspaces__container {
   min-height: 100vh;
 }
 
@@ -19,4 +19,9 @@ body {
 
 .Workspaces__content {
   padding: 16px 24px;
+}
+
+.Card {
+  max-width: 400px;
+  padding: 1rem;
 }
